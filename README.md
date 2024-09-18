@@ -1,10 +1,28 @@
-# Getting Started with Create React App
+# Event Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Event Manager**, a full-stack web application that helps you keep track of all your important events. With this app, you can add, edit, delete, and set reminders for events, keeping your schedule organized and ensuring you never miss an important date!
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add New Events**: Quickly add new events with a simple form.
+- **Edit Events**: Modify event details as needed.
+- **Delete Events**: Remove events that are no longer needed.
+- **Set Reminders**: Toggle reminders on events to keep track of important dates.
+- **Interactive UI**: A modern, responsive interface with animations and effects for an enhanced user experience.
+
+## Technologies Used
+
+- **Frontend**: 
+  - React
+  - Tailwind CSS
+  - Framer Motion for animations
+- **Backend**: 
+  - Node.js
+  - Express.js
+- **Database**:
+  - MongoDB
+- **Other**: 
+  - Axios for HTTP requests
 
 ### `npm start`
 
@@ -39,11 +57,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
