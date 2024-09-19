@@ -9,7 +9,6 @@ const App = () => {
     const [events, setEvents] = useState([]);
 
     useEffect(() => {
-        // Fetch events from the server
         axios.get('http://localhost:5000/api/events')
             .then(response => setEvents(response.data))
             .catch(error => console.error(error));
