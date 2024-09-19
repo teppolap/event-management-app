@@ -25,16 +25,16 @@ const EventForm = ({ onEventAdd }) => {
     };
 
     return (
-        <div className="flex justify-center items-center p-6 opacity-90">
+        <div className="flex justify-center items-center p-6">
             <motion.div
-                className="rounded-lg bg-gradient-to-br from-blue-700 to-teal-500"
+                className="w-full max-w-lg"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
             >
                 <motion.form
                     onSubmit={handleSubmit}
-                    className="w-full max-w-lg p-8 bg-gray-800 bg-opacity-80 rounded-lg border border-gray-400 border-opacity-50 shadow-lg"
+                    className="w-full p-8"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
@@ -60,7 +60,7 @@ const EventForm = ({ onEventAdd }) => {
                             value={newEvent.title}
                             onChange={handleInputChange}
                             required
-                            className="w-full p-3 bg-transparent border border-gray-400 border-opacity-70 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-150"
+                            className="w-full p-3 bg-gray-800 text-white border border-blue-500 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-150"
                         />
                     </motion.div>
                     <motion.div
@@ -76,7 +76,7 @@ const EventForm = ({ onEventAdd }) => {
                             value={newEvent.date}
                             onChange={handleInputChange}
                             required
-                            className="w-full p-3 bg-transparent border border-gray-400 border-opacity-70 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-150"
+                            className="w-full p-3 bg-gray-800 text-white border border-blue-500 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-150"
                         />
                     </motion.div>
                     <motion.div
@@ -87,7 +87,7 @@ const EventForm = ({ onEventAdd }) => {
                     >
                         <button
                             type="submit"
-                            className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white"
+                            className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white"
                         >
                             <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                                 Add
