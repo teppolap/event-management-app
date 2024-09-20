@@ -14,7 +14,9 @@ module.exports = {
         lightDark: '#D3D9D4',
         lightGrey: '#E0E0E0',
         Grey: '#D3D6DB',
-        buttonColor: '#565A5E'
+        buttonColor: '#565A5E',
+        titleLine1: '#6f5d4e',
+        titleLine2: '#222538'
       },
     },
   },

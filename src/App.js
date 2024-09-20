@@ -76,10 +76,10 @@ const App = () => {
                 >
                     {/* Title and Description */}
                     <div className="relative z-10 mb-6">
-                        <h2 className="text-4xl font-extrabold mb-4 text-white">
+                        <h2 className="text-4xl font-bold mb-4 text-white">
                             Event Manager
                             <motion.div
-                                className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"
+                                className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-sky-900 via-indigo-400 to-titleLine1"
                                 initial={{ width: 0 }}
                                 animate={{ width: '100%' }}
                                 transition={{ duration: 1, ease: "easeOut" }}
