@@ -2,7 +2,7 @@
 
 Welcome to **Event Manager**, a full-stack web application that helps you keep track of all your important events. With this app, you can add, edit, delete, and set reminders for events, keeping your schedule organized and ensuring you never miss an important date!
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=3E9IE-yoOGs)
+[![Watch the video]](https://www.youtube.com/watch?v=3E9IE-yoOGs)
 
 
 ## Features
